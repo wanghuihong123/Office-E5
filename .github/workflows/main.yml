@@ -4,6 +4,7 @@
 name: Office E5
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0/6 15 1/2 ?'
   release:
